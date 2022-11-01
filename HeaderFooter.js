@@ -2,7 +2,7 @@ class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         
-        <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
             <div class="col-lg-6 px-5 text-start">
                 <small><i class="fa fa-map-marker-alt me-2"></i>Innovation & Incubation Center, BIET Jhansi</small>
@@ -34,6 +34,8 @@ class MyHeader extends HTMLElement {
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="../index.html" class="nav-item nav-link ">Home</a>
+
+
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Events</a>
                       <div class="dropdown-menu m-0">
@@ -41,6 +43,8 @@ class MyHeader extends HTMLElement {
                         <a href="../events.html" class="dropdown-item">Other Events</a>
                       </div>
                     </div>
+
+
                     <div class="nav-item dropdown">
                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Traning & Certification</a>
                       <div class="dropdown-menu m-0">
@@ -48,6 +52,7 @@ class MyHeader extends HTMLElement {
                         <a href="../traning.html#certi" class="dropdown-item">Certificate Verification</a>
                       </div>
                     </div>
+
                     <a href="../entrepreneurship/index.html" class="nav-item nav-link">Entrepreneurship</a>
                  
                     <div class="nav-item dropdown">
