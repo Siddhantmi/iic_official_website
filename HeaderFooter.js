@@ -8,17 +8,17 @@ class MyHeader extends HTMLElement {
                 <small><i class="fa fa-map-marker-alt me-2"></i>Innovation & Incubation Center, BIET Jhansi</small>
                 <small class="ms-4"><i class="fa fa-envelope me-2"></i>iic.bietjhansi@gmail.com</small>
             </div>
-            <div class="col-lg-6 px-5 text-end">
-                <small>Follow us:</small>
-                <a class="text-white-50 ms-3"
+            <div class="col-lg-6 px-5 d-flex flex-row text-end">
+                <small class="p-2">Follow us:</small>
+              <a class="text-white-50 p-2 ms-3"
                     href="https://www.facebook.com/BIET-Jhansi-Innovation-and-Incubation-Cell-116551726553214/"><i
                         class="fab fa-facebook-f"></i></a>
-                <a class="text-white-50 ms-3" href="https://www.youtube.com/watch?v=vmAfQXCDPlQ"><i
+                <a class="text-white-50 p-2 ms-3" href="https://www.youtube.com/watch?v=vmAfQXCDPlQ"><i
                         class="fab fa-youtube"></i></a>
-                <a class="text-white-50 ms-3"
+                <a class="text-white-50 p-2 ms-3"
                     href="https://www.linkedin.com/company/innovation-and-incubation-cell-biet-jhansi/mycompany/"><i
                         class="fab fa-linkedin-in"></i></a>
-                <a class="text-white-50 ms-3" href="https://www.instagram.com/iic_bietjhs/"><i
+                <a class="text-white-50 p-2 ms-3" href="https://www.instagram.com/iic_bietjhs/"><i
                         class="fab fa-instagram"></i></a>
             </div>
         </div>
@@ -134,8 +134,7 @@ class MyFooter extends HTMLElement {
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a href="#">iic_bietjhs</a>, All Right Reserved.
                     </div>
-                    <div class="col-md-6 text-center text-md-end">
-                
+                    <div class="col-md-6 text-center text-md-end">            
                         Designed By <a href="https://www.instagram.com/the_golden_hearted/">Shubham Pathak</a> &
                         <a href="https://srivastava-abhishek.in/">Abhishek Srivastava</a>
                     </div>
@@ -143,7 +142,6 @@ class MyFooter extends HTMLElement {
             </div>
         </div>
     </div>
-
         `
     }
 }
