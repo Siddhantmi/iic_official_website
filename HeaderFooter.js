@@ -99,8 +99,7 @@ class MyFooter extends HTMLElement {
                 <div class="col-lg-3 col-md-6">
                     <h1 class="fw-bold text-primary mb-4">Innovation and Incubation<span class="text-white">
                             Cell</span></h1>
-                    <p>Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                        sed stet lorem sit clita</p>
+                    <p>The incubation centre of Bundel- khand region which give a wing to your innovative idea and also build a foundation for your startups</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-1" href="https://www.instagram.com/iic_bietjhs/"><i
                                 class="fab fa-instagram"></i></a>
